@@ -1,6 +1,6 @@
 **Growing house and irrigation controlling and remote monitoring system**  
 Copyright (C) 2020-2022 Pozsár Zsolt <pozsar.zsolt@szerafingomba.hu>  
-GitHub: <https://github.com/pozsarzs/mini-farm-control>
+GitHub: <https://github.com/pozsarzs/mini_farm_control>
 
 Licence:             CC-BY-NC-4.0
 
