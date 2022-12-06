@@ -1,4 +1,4 @@
-update=2022. aug.  4., csütörtök, 11:47:11 CEST
+update=2022. dec.  6., kedd, 21:06:51 CET
 version=1
 last_client=kicad
 [general]
@@ -33,13 +33,4 @@ LibDir=
 [eeschema/libraries]
 LibName1=conn
 LibName2=device
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName3=power
