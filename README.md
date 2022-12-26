@@ -21,6 +21,8 @@ The system consists of devices called MM8D, MM9A and several MM6D and MM7D. This
   * Software of the MM7D: <https://github.com/pozsarzs/mm7d-sw.git>  
   * Hardware of the MM8D: <https://github.com/pozsarzs/mm8d-hw.git>  
   * Software of the MM8D: <https://github.com/pozsarzs/mm8d-sw.git>  
+  * Hardware of the MM8D console: <https://github.com/pozsarzs/mini_serial_console-hw>
+  * Software of the MM8D console: <https://github.com/pozsarzs/mini_serial_console_mm8d-sw>
   * Software for access behind NAT: <https://github.com/pozsarzs/myfarm.git>  
   * Software for remote setup: <https://github.com/pozsarzs/xmmeec-remote.git>  
   * Hardware of the MM9A: <https://github.com/pozsarzs/mm9a.git>
