@@ -1,343 +1,305 @@
 <project version="0.90" title="Telek informatikai hálózat">
     <properties>
         <property name="saveddate" show="1">2022. 08. 06.</property>
-        <property name="savedfilename" show="1">software_control_of_the_farm</property>
         <property name="savedtime" show="1">09:29</property>
         <property name="saveddate-eu" show="1">06-08-2022</property>
-        <property name="savedfilepath" show="1">C:/users/pozsarzs/Asztal/Git/W_mini_farm_control/cad_files/software_control_of_the_farm.qet</property>
         <property name="saveddate-us" show="1">2022-08-06</property>
+        <property name="savedfilepath" show="1">C:/users/pozsarzs/Asztal/Git/W_mini_farm_control/cad_files/software_control_of_the_farm.qet</property>
+        <property name="savedfilename" show="1">software_control_of_the_farm</property>
     </properties>
     <newdiagrams>
-        <border displayrows="true" rowsize="80" cols="17" rows="8" colsize="60" displaycols="true"/>
-        <inset date="null" locmach="" auto_page_num="Tervlap automatikus számozása létrehozása" filename="" version="" plant="" folio="%id/%total" indexrev="" displayAt="bottom" title="" author=""/>
-        <conductors conductor_color="" type="multi" text_color="#000000" horizrotatetext="0" function="" conductor_section="" onetextperfolio="0" vertirotatetext="270" displaytext="1" vertical-alignment="AlignRight" num="_" formula="" condsize="1" color2="#000000" horizontal-alignment="AlignBottom" tension_protocol="" dash-size="2" cable="" bus="" bicolor="false" numsize="7"/>
+        <border displayrows="true" cols="17" colsize="60" rows="8" displaycols="true" rowsize="80"/>
+        <inset author="" locmach="" auto_page_num="Tervlap automatikus számozása létrehozása" filename="" version="" date="null" indexrev="" plant="" folio="%id/%total" displayAt="bottom" title=""/>
+        <conductors type="multi" dash-size="2" displaytext="1" num="_" onetextperfolio="0" vertirotatetext="270" vertical-alignment="AlignRight" horizrotatetext="0" text_color="#000000" bicolor="false" numsize="7" conductor_section="" bus="" function="" horizontal-alignment="AlignBottom" cable="" color2="#000000" condsize="1" tension_protocol="" conductor_color="" formula=""/>
         <report label="%f-%l%c"/>
         <xrefs>
-            <xref displayhas="cross" switchprefix="" type="protection" offset="0" master_label="%f-%l%c" snapto="label" slave_label="(%f-%l%c)" delayprefix="" powerprefix="" xrefpos="" showpowerctc="true"/>
-            <xref displayhas="cross" switchprefix="" type="coil" offset="40" master_label="%f-%l%c" snapto="label" slave_label="(%f-%l%c)" delayprefix="" powerprefix="" xrefpos="AlignTop" showpowerctc="true"/>
-            <xref displayhas="cross" switchprefix="" type="commutator" offset="0" master_label="%f-%l%c" snapto="label" slave_label="(%f-%l%c)" delayprefix="" powerprefix="" xrefpos="" showpowerctc="true"/>
+            <xref type="commutator" displayhas="cross" offset="0" showpowerctc="true" slave_label="(%f-%l%c)" delayprefix="" snapto="label" xrefpos="" switchprefix="" powerprefix="" master_label="%f-%l%c"/>
+            <xref type="protection" displayhas="cross" offset="0" showpowerctc="true" slave_label="(%f-%l%c)" delayprefix="" snapto="label" xrefpos="" switchprefix="" powerprefix="" master_label="%f-%l%c"/>
+            <xref type="coil" displayhas="cross" offset="40" showpowerctc="true" slave_label="(%f-%l%c)" delayprefix="" snapto="label" xrefpos="AlignTop" switchprefix="" powerprefix="" master_label="%f-%l%c"/>
         </xrefs>
         <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
         <folio_autonums/>
-        <element_autonums current_autonum="" freeze_new_elements="false"/>
+        <element_autonums freeze_new_elements="false" current_autonum=""/>
     </newdiagrams>
-    <diagram plant="" title="Software control of the farm" displayAt="bottom" freezeNewElement="false" displaycols="true" version="0.90-DEV+c1fdc1adac957a06d79751d3" freezeNewConductor="false" rows="8" order="1" indexrev="1.0" date="20221226" colsize="60" filename="software_control_of_the_farm.qet" folio="1" cols="17" height="660" displayrows="true" author="Pozsár Zsolt" rowsize="80" locmach="" auto_page_num="Tervlap automatikus számozása létrehozása">
-        <defaultconductor conductor_color="" type="multi" text_color="#000000" horizrotatetext="0" function="" conductor_section="" onetextperfolio="0" vertirotatetext="270" displaytext="0" vertical-alignment="AlignRight" num="" formula="" condsize="1" color2="#000000" horizontal-alignment="AlignBottom" tension_protocol="" dash-size="2" cable="" bus="" bicolor="false" numsize="7"/>
+    <diagram filename="software_control_of_the_farm.qet" displayAt="bottom" order="1" freezeNewConductor="false" rows="8" freezeNewElement="false" colsize="60" rowsize="80" locmach="" date="20221226" auto_page_num="Tervlap automatikus számozása létrehozása" folio="1" cols="17" height="660" displayrows="true" version="0.90-DEV+c1fdc1adac957a06d79751d3" indexrev="1.0" author="Pozsár Zsolt" plant="" title="Software control of the farm" displaycols="true">
+        <defaultconductor type="multi" dash-size="2" displaytext="0" num="" vertirotatetext="270" vertical-alignment="AlignRight" onetextperfolio="0" horizrotatetext="0" text_color="#000000" bicolor="false" numsize="7" conductor_section="" bus="" horizontal-alignment="AlignBottom" function="" cable="" color2="#000000" condsize="1" tension_protocol="" conductor_color="" formula=""/>
         <inputs>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH client&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="440" y="460" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>RS-232&lt;/span>&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="990" y="590" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM8D&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="300" y="230" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:11pt;&quot;>internet&lt;/span>&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="640" y="90" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> Webserver&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:7pt;&quot;>openweather.org&lt;/span>&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="640" y="320" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>XMMEEC&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="440" y="530" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Remote computer&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>with Windows or Linux&lt;/span>&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="810" y="260" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH client&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="830" y="130" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM6D&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="70" y="220" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Microcontrollers in tents&lt;/span>&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="50" y="90" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>HTTP&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="990" y="630" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM7D&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="70" y="130" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MyFarm&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="420" y="200" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Central controller computer&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>with Debian GNU/Linux or Raspberry Pi OS&lt;/span>&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="250" y="70" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> MM8DRead&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="250" y="460" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>XMMEEC&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>-remote&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="270" y="120" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>XMMEEC&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="940" y="130" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> Web&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>browser&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="940" y="200" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM7DRead&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="170" y="460" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Webserver&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="420" y="270" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Webserver&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="640" y="200" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH server&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="420" y="130" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> S&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>erial&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>console&lt;/span>&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="70" y="320" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Notebook for administration&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>with Windows or Linux&lt;/span>&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="60" y="580" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="990" y="610" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM6DRead&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="80" y="460" rotation="0"/>
-            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Web browser&lt;/p>&lt;/body>&lt;/html>" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="340" y="460" rotation="0"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="990" rotation="0" y="610" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="990" rotation="0" y="590" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>RS-232&lt;/span>&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="810" rotation="0" y="260" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Remote computer&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>with Windows or Linux&lt;/span>&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="640" rotation="0" y="320" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> Webserver&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:7pt;&quot;>openweather.org&lt;/span>&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="640" rotation="0" y="90" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:11pt;&quot;>internet&lt;/span>&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="300" rotation="0" y="230" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM8D&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="250" rotation="0" y="70" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Central controller computer&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>with Debian GNU/Linux or Raspberry Pi OS&lt;/span>&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="440" rotation="0" y="530" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>XMMEEC&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="440" rotation="0" y="460" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH client&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="990" rotation="0" y="630" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>HTTP&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="70" rotation="0" y="130" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM7D&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="60" rotation="0" y="580" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Notebook for administration&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>with Windows or Linux&lt;/span>&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="420" rotation="0" y="130" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH server&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="70" rotation="0" y="320" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> S&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>erial&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>console&lt;/span>&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="830" rotation="0" y="130" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>SSH client&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="70" rotation="0" y="220" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM6D&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="270" rotation="0" y="120" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>XMMEEC&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>-remote&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="420" rotation="0" y="270" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Webserver&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="940" rotation="0" y="200" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> Web&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>browser&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="170" rotation="0" y="460" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM7DRead&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="250" rotation="0" y="460" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;> MM8DRead&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="940" rotation="0" y="130" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>XMMEEC&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="50" rotation="0" y="90" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Microcontrollers in tents&lt;/span>&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="340" rotation="0" y="460" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Web browser&lt;/p>&lt;/body>&lt;/html>"/>
+            <input font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" x="80" rotation="0" y="460" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>MM6DRead&lt;/p>&lt;/body>&lt;/html>"/>
         </inputs>
         <shapes>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="100" y2="320" x1="250" x2="500">
+            <shape type="Rectangle" closed="0" is_movable="1" y1="100" y2="320" z="0" x1="250" x2="500" rx="0" ry="0">
                 <pen style="SolidLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="220" y2="280" x1="800" x2="800">
-                <pen style="DashLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="140" y2="140" x1="800" x2="820">
-                <pen style="SolidLine" color="#aa0000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="280" y2="280" x1="490" x2="530">
+            <shape type="Line" closed="0" is_movable="1" y1="280" y2="280" z="0" x1="490" x2="530">
                 <pen style="SolidLine" color="#005500" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="600" y2="600" x1="940" x2="980">
+            <shape type="Line" closed="0" is_movable="1" y1="600" y2="600" z="0" x1="940" x2="980">
                 <pen style="SolidLine" color="#0055ff" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="440" y2="500" x1="70" x2="150">
+            <shape type="Rectangle" closed="0" is_movable="1" y1="440" y2="500" z="0" x1="70" x2="150" rx="0" ry="0">
                 <pen style="SolidLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="440" y2="500" x1="250" x2="330">
+            <shape type="Line" closed="0" is_movable="1" y1="440" y2="410" z="0" x1="200" x2="200">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="190" y2="290" z="0" x1="260" x2="390" rx="0" ry="0">
                 <pen style="SolidLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="410" y2="410" x1="480" x2="520">
+            <shape type="Line" closed="0" is_movable="1" y1="410" y2="410" z="0" x1="380" x2="460">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="240" y2="240" z="0" x1="130" x2="150">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="440" y2="500" z="0" x1="250" x2="330" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="410" y2="410" z="0" x1="480" x2="520">
                 <pen style="SolidLine" color="#aa0000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="340" y2="340" x1="130" x2="280">
+            <shape type="Line" closed="0" is_movable="1" y1="340" y2="340" z="0" x1="130" x2="280">
                 <pen style="SolidLine" color="#0055ff" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="340" y2="340" x1="620" x2="630">
+            <shape type="Line" closed="0" is_movable="1" y1="340" y2="340" z="0" x1="620" x2="630">
                 <pen style="SolidLine" color="#005500" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="200" y2="260" x1="50" x2="130">
+            <shape type="Rectangle" closed="0" is_movable="1" y1="200" y2="260" z="0" x1="50" x2="130" rx="0" ry="0">
                 <pen style="SolidLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="440" y2="410" x1="480" x2="480">
+            <shape type="Line" closed="0" is_movable="1" y1="440" y2="410" z="0" x1="480" x2="480">
                 <pen style="SolidLine" color="#aa0000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="440" y2="410" x1="200" x2="200">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="190" y2="290" x1="260" x2="390">
+            <shape type="Rectangle" closed="0" is_movable="1" y1="440" y2="500" z="0" x1="160" x2="240" rx="0" ry="0">
                 <pen style="SolidLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="410" y2="410" x1="380" x2="460">
+            <shape type="Line" closed="0" is_movable="1" y1="410" y2="410" z="0" x1="110" x2="150">
                 <pen style="SolidLine" color="#005500" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="240" y2="240" x1="130" x2="150">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="280" y2="280" x1="530" x2="800">
-                <pen style="DashLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="130" y2="210" x1="220" x2="220">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="180" y2="240" x1="630" x2="720">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="800" x2="920">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="530" x2="620">
-                <pen style="DashLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="150" y2="150" x1="490" x2="520">
-                <pen style="SolidLine" color="#aa0000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="620" x2="630">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="440" y2="410" x1="110" x2="110">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="720" x2="730">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="220" y2="220" x1="130" x2="260">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="240" y2="410" x1="150" x2="150">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="410" y2="150" x1="520" x2="520">
-                <pen style="SolidLine" color="#aa0000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="100" y2="260" x1="810" x2="1020">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="510" y2="570" x1="430" x2="510">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="190" y2="250" x1="920" x2="1010">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="440" y2="500" x1="160" x2="240">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="410" y2="410" x1="110" x2="150">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="340" y2="290" x1="280" x2="280">
+            <shape type="Line" closed="0" is_movable="1" y1="340" y2="290" z="0" x1="280" x2="280">
                 <pen style="SolidLine" color="#0055ff" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="140" y2="140" x1="530" x2="800">
+            <shape type="Line" closed="0" is_movable="1" y1="220" y2="280" z="0" x1="800" x2="800">
+                <pen style="DashLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="140" y2="140" z="0" x1="530" x2="800">
                 <pen style="DashLine" color="#aa0000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="400" y2="310" x1="450" x2="450">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="390" x2="410">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="640" y2="640" x1="940" x2="980">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="140" y2="140" x1="910" x2="920">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="270" y2="270" x1="390" x2="410">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="110" y2="170" x1="260" x2="340">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="220" y2="220" x1="800" x2="920">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="410" y2="150" x1="160" x2="160">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="510" y2="500" x1="470" x2="470">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="440" y2="410" x1="380" x2="380">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="440" y2="500" x1="340" x2="420">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="180" y2="240" x1="410" x2="490">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="340" y2="340" x1="530" x2="620">
-                <pen style="DashLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="400" y2="400" x1="290" x2="450">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="140" y2="140" x1="340" x2="410">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="730" x2="800">
-                <pen style="DashLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="340" y2="340" x1="370" x2="530">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="310" y2="370" x1="630" x2="720">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="140" y2="140" x1="490" x2="530">
+            <shape type="Line" closed="0" is_movable="1" y1="140" y2="140" z="0" x1="800" x2="820">
                 <pen style="SolidLine" color="#aa0000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="490" x2="530">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="210" y2="210" x1="260" x2="220">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="410" y2="310" x1="460" x2="460">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="340" y2="290" x1="370" x2="370">
-                <pen style="SolidLine" color="#005500" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="110" y2="170" x1="410" x2="490">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="620" y2="620" x1="940" x2="980">
+            <shape type="Line" closed="0" is_movable="1" y1="150" y2="150" z="0" x1="490" x2="520">
                 <pen style="SolidLine" color="#aa0000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="310" y2="370" x1="50" x2="130">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="170" y2="190" x1="300" x2="300">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="110" y2="170" x1="50" x2="130">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="150" y2="150" x1="130" x2="160">
+            <shape type="Line" closed="0" is_movable="1" y1="400" y2="310" z="0" x1="450" x2="450">
                 <pen style="SolidLine" color="#005500" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="110" y2="170" x1="920" x2="1010">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="250" y2="310" x1="410" x2="490">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="410" y2="410" x1="160" x2="200">
+            <shape type="Line" closed="0" is_movable="1" y1="440" y2="410" z="0" x1="110" x2="110">
                 <pen style="SolidLine" color="#005500" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="110" y2="170" x1="820" x2="910">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="440" y2="500" x1="430" x2="510">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Rectangle" rx="0" is_movable="1" ry="0" z="0" y1="430" y2="580" x1="60" x2="520">
-                <pen style="SolidLine" color="#000000" widthF="1"/>
-                <brush style="NoBrush" color="#000000"/>
-            </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="440" y2="400" x1="290" x2="290">
+            <shape type="Line" closed="0" is_movable="1" y1="220" y2="220" z="0" x1="130" x2="260">
                 <pen style="SolidLine" color="#005500" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape closed="0" type="Line" is_movable="1" z="0" y1="130" y2="130" x1="130" x2="220">
+            <shape type="Line" closed="0" is_movable="1" y1="240" y2="410" z="0" x1="150" x2="150">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="410" y2="150" z="0" x1="520" x2="520">
+                <pen style="SolidLine" color="#aa0000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="100" y2="260" z="0" x1="810" x2="1020" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="170" y2="190" z="0" x1="300" x2="300">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="510" y2="570" z="0" x1="430" x2="510" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="190" y2="250" z="0" x1="920" x2="1010" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="280" y2="280" z="0" x1="530" x2="800">
+                <pen style="DashLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="130" y2="210" z="0" x1="220" x2="220">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="640" y2="640" z="0" x1="940" x2="980">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="140" y2="140" z="0" x1="910" x2="920">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="270" y2="270" z="0" x1="390" x2="410">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="110" y2="170" z="0" x1="260" x2="340" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="220" y2="220" z="0" x1="800" x2="920">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="410" y2="150" z="0" x1="160" x2="160">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="510" y2="500" z="0" x1="470" x2="470">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="440" y2="410" z="0" x1="380" x2="380">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="440" y2="500" z="0" x1="340" x2="420" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="340" y2="340" z="0" x1="530" x2="620">
+                <pen style="DashLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="400" y2="400" z="0" x1="290" x2="450">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="140" y2="140" z="0" x1="340" x2="410">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="340" y2="340" z="0" x1="370" x2="530">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="310" y2="370" z="0" x1="630" x2="720" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="140" y2="140" z="0" x1="490" x2="530">
+                <pen style="SolidLine" color="#aa0000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="210" y2="210" z="0" x1="260" x2="220">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="410" y2="310" z="0" x1="460" x2="460">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="340" y2="290" z="0" x1="370" x2="370">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="110" y2="170" z="0" x1="410" x2="490" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="620" y2="620" z="0" x1="940" x2="980">
+                <pen style="SolidLine" color="#aa0000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="310" y2="370" z="0" x1="50" x2="130" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="110" y2="170" z="0" x1="50" x2="130" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="150" y2="150" z="0" x1="130" x2="160">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="110" y2="170" z="0" x1="920" x2="1010" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="250" y2="310" z="0" x1="410" x2="490" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="410" y2="410" z="0" x1="160" x2="200">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="110" y2="170" z="0" x1="820" x2="910" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="440" y2="500" z="0" x1="430" x2="510" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Rectangle" closed="0" is_movable="1" y1="430" y2="580" z="0" x1="60" x2="520" rx="0" ry="0">
+                <pen style="SolidLine" color="#000000" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="440" y2="400" z="0" x1="290" x2="290">
+                <pen style="SolidLine" color="#005500" widthF="1"/>
+                <brush style="NoBrush" color="#000000"/>
+            </shape>
+            <shape type="Line" closed="0" is_movable="1" y1="130" y2="130" z="0" x1="130" x2="220">
                 <pen style="SolidLine" color="#005500" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
